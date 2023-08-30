@@ -8,7 +8,7 @@ header {
 
 header .inner-main {
    background-color: #fff;
-   padding: 0 36px;
+   padding: 1rem 2rem;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -31,7 +31,22 @@ header .inner-menu ul {
 header .inner-menu ul a {
    display: block;
    color: #000;
-   padding: 15px 25px;
+   line-height: 100%;
+   padding: 0 6px;
+}
+
+header .icon-menu{
+   display: none;
+}
+
+@media (max-width: 991.98px) {
+   header .icon-menu {
+    display: block;
+    font-size: 20px;
+  }
+  .inner-menu {
+    display: none;
+  }
 }
 
 .section-1 {
